@@ -1,0 +1,26 @@
+h1{
+  font-family:georgia;
+  font-style:bold;
+    font-size: 24px;
+    color:green;
+}
+h2{
+  font-family:Arial;
+  font style:serif;
+    font-size: 24px;
+    color:purple;
+}
+
+form{
+font-family: cursive;
+  font-weight: bold;
+  font-size: 28px;
+}
+
+#poem{
+  background-color: yellow;}
+
+
+.story{
+  background-image: url('https://wallpaperaccess.com/full/175987.jpg');
+}
