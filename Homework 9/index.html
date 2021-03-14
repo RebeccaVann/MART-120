@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+
+<title>my first p5.js page </title>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.min.js"> </script>
+
+
+
+<script>
+
+function setup() {
+	createCanvas(400, 400);
+
+}
+
+function draw() {
+	background('#ffe066');
+
+
+
+	//hair
+	fill('#301607')
+	ellipse(200, 200, 250, 290);
+	fill('#301607')
+	rect(75, 190, 250, 280);
+
+	//skin
+	fill('#ECD4A3')
+	ellipse(200, 205, 200, 250);
+  ellipse(150, 455, 200, 150);
+  ellipse(250, 455, 200, 150);
+	noStroke();
+	fill('#ECD4A3')
+	rect(160, 210, 80, 200);
+
+  //blush
+	fill('#F8AE9E');
+	ellipse(250, 210, 50, 50)
+	fill('#F8AE9E');
+	ellipse(155, 210, 50, 50)
+
+  //lashes
+  stroke(50);
+  fill('#2F251C');
+  line(255,185,272,173);
+  line(255,180,268,170);
+  line(255,175,265,168);
+
+  stroke(50);
+  fill('#2F251C');
+  line(150,185,132,173);
+  line(150,180,138,170);
+  line(150,175,145,168);
+
+  point(200,200)
+
+
+  //eye
+  fill('#2F251C');
+  ellipse(250, 180, 20, 20);
+  ellipse(155, 180, 20, 20);
+
+  //nose
+  noStroke();
+	fill('#EA8D79');
+	triangle(200, 220, 230, 210, 200, 200);
+  noStroke();
+
+  //mouth
+	fill('#EF896E');
+	ellipse(203, 265, 50, 20);
+  noStroke();
+
+  //eyebrows
+  fill('#2F251C');
+	ellipse(150, 150, 50, 8);
+	ellipse(250, 150, 50, 8);
+
+
+
+fill('#EF896E');
+textSize(32);
+text('Hello! I am Becca', 20, 30);
+
+textSize(15);
+text('RMV', 350, 380);
+
+
+}
+</script>
+
+  </head>
+  <body>
+
+  </body>
+</html>
